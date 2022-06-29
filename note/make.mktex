@@ -1,4 +1,5 @@
-
+pandoc -s *.tex -o readme.md
+mv *.md ../
 echo r | pdflatex *.tex
 echo r | pdflatex *.tex
 rm *.log *.aux
