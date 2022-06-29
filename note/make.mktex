@@ -1,6 +1,6 @@
 
-echo r | xelatex *.tex
-echo r | xeflatex *.tex
+echo r | pdflatex *.tex
+echo r | pdflatex *.tex
 rm *.log *.aux
 mv *.pdf ../
 git add *
